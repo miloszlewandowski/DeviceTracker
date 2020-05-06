@@ -14,7 +14,8 @@ public class NetworkStateReceiver extends BroadcastReceiver {
 		else Toast.makeText(context, "Lost connection", Toast.LENGTH_LONG).show();
 	}
 
-
+	//comment
+	//another comment
 	public boolean isConnected(Context context) {
 		ConnectivityManager cm = (ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
 
